@@ -1,0 +1,35 @@
+export const APP_TEXTS = {
+  intro:
+    "Oi, eu sou a Manu 👋. Conte o que aconteceu em casa e eu te ajudo a tentar o básico com segurança, passo a passo.",
+  equipmentLabel: "Onde / o que é?",
+  equipmentPlaceholder: "Ex.: torneira da cozinha, aspirador, máquina de lavar",
+  symptomLabel: "O que está acontecendo?",
+  symptomPlaceholder:
+    "Ex.: a torneira está saindo pouca água mesmo totalmente aberta",
+  analyze: "✨ Manu, me ajuda",
+  analyzing: "A Manu está pensando numa solução...",
+  diagnosisTitle: "Plano rápido",
+  stepLabel: "PASSO",
+  whyLabel: "Por que fazer isso?",
+  cautionLabel: "Atenção",
+  quizLabel: "E aí, funcionou?",
+  solved: "🎉 Deu certo!",
+  notYet: "Ainda não",
+  callHelp: "🙋‍♀️ Vou chamar ajuda",
+  understoodHelp: "Entendi, vou chamar ajuda",
+  previous: "Passo anterior",
+  next: "Próximo passo",
+  newMission: "Resolver outra coisa",
+  retry: "Tentar novamente",
+  errorTitle: "Ops, a Manu não conseguiu continuar",
+  successTitle: "Você resolveu! 🎉",
+  helpTitle: "Hora de chamar ajuda 💛",
+  safetyFooter:
+    "Gás, cheiro de queimado, faísca, choque, água perto de eletricidade ou reparo interno: pare e chame ajuda profissional.",
+  pageOf: "de",
+  safetyTry: "PODE TENTAR",
+  safetyAttention: "ATENÇÃO",
+  safetyHelp: "CHAME AJUDA",
+  successEmoji: "🎉",
+  helpEmoji: "💛"
+} as const;
