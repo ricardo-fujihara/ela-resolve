@@ -6,6 +6,23 @@ A assistente virtual do app se chama **Manu** — um nome feminino que também f
 
 > **Ela Resolve** é o nome do aplicativo. **Manu** é a assistente virtual de reparos domésticos.
 
+## Configuração da Gemini API
+
+Crie um arquivo `.env.local` na raiz do projeto:
+
+```env
+GEMINI_API_KEY=SUA_CHAVE_GEMINI
+GEMINI_MODEL=gemini-3.5-flash-lite
+```
+
+O `.env.local` está no `.gitignore` e **não deve ser enviado ao GitHub**.
+
+O repositório contém somente `.env.example`, sem segredo real - copie ele como modelo .
+
+Neste projeto a chave permanece no lado servidor.
+
+
+
 ## Proposta
 
 O público principal são mulheres e mães com rotina corrida, trabalho, filhos e tarefas da casa, que querem tentar o básico com segurança antes de chamar outra pessoa.
@@ -32,7 +49,7 @@ Ao concluir, o app apresenta uma mensagem positiva. Se a usuária decidir chamar
 
 ## Experiência em uma única tela
 
-O aplicativo foi planejado para **não usar rolagem vertical na tela principal**.
+O aplicativo foi planejado para reutilizar a tela.
 
 No estado inicial aparecem somente o cabeçalho, os dois campos e o botão da Manu.
 
@@ -231,15 +248,7 @@ O `.env.local` está no `.gitignore` e **não deve ser enviado ao GitHub**.
 
 O repositório contém somente `.env.example`, sem segredo real.
 
-### Não use a chave como variável pública
-
-Não configure a chave assim:
-
-```env
-EXPO_PUBLIC_GEMINI_API_KEY=...
-```
-
-Variáveis `EXPO_PUBLIC_` podem fazer parte do bundle do aplicativo. Neste projeto a chave permanece no lado servidor.
+Neste projeto a chave permanece no lado servidor.
 
 Fluxo:
 
